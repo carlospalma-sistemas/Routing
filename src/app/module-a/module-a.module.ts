@@ -14,6 +14,11 @@ import { ComponentA3Component } from './component-a3/component-a3.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    ComponentA1Component,
+    ComponentA2Component,
+    ComponentA3Component
   ]
 })
 export class ModuleAModule { }
