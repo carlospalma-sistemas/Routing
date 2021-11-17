@@ -14,6 +14,9 @@ import { ComponentB3Component } from './component-b3/component-b3.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    ComponentB1Component,
   ]
 })
 export class ModuleBModule { }
