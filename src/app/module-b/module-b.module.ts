@@ -8,7 +8,7 @@ import { ComponentB3Component } from './component-b3/component-b3.component';
 
 @NgModule({
   declarations: [
-    ComponentB1Component,
+    ComponentB1Component,    //<=
     ComponentB2Component,
     ComponentB3Component
   ],
@@ -16,7 +16,7 @@ import { ComponentB3Component } from './component-b3/component-b3.component';
     CommonModule
   ],
   exports: [
-    ComponentB1Component,
+    ComponentB1Component,  //<=
   ]
 })
 export class ModuleBModule { }

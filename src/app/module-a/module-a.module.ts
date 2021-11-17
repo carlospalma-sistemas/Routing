@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ComponentA1Component } from './component-a1/component-a1.component';
 import { ComponentA2Component } from './component-a2/component-a2.component';
 import { ComponentA3Component } from './component-a3/component-a3.component';
-import { ModuleBModule } from '../module-b/module-b.module';
+import { ModuleBModule } from '../module-b/module-b.module';     //<=
 
 
 @NgModule({
@@ -14,7 +14,7 @@ import { ModuleBModule } from '../module-b/module-b.module';
   ],
   imports: [
     CommonModule,
-    ModuleBModule
+    ModuleBModule    //<=
   ],
   exports:[
     ComponentA1Component,
